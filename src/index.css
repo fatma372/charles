@@ -1,0 +1,41 @@
+@import "tailwindcss";
+#root{
+    max-width: 100svw;
+}
+main{
+    background-image: url(../public/business-bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.second-icon{
+    border-right: 1px dashed gray;
+    border-left: 1px dashed gray;
+}
+.service{
+    border-bottom: 3px solid transparent;
+}
+
+.service:hover{
+    border-bottom: 3px solid rgb(4, 2, 72);
+}
+
+.about-second-part {
+    background-image: url(../public/blue-bg.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 40svh;
+}
+
+.dark-btn:hover{
+    background-color: black;
+}
+
+.services-list{
+    align-content: center;
+    align-items: center;
+}
