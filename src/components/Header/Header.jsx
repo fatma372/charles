@@ -6,7 +6,7 @@ function Header() {
     return (
         <>
             <header className="bg-white text-gray-700 p-6 flex lg:flex-row md:flex-col lg:justify-between justify-center items-center gap-5">
-                <img src="/public/logo.png" alt="" />
+                <img src="/logo.png" alt="" />
 
                 <div className="info md:flex justify-evenly hidden gap-5 md:px-7">
                     <div className="details flex gap-3 items-center border-r-2 border-gray-300 px-4 ">
